@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho, .apresentacao, .sobre, .rota, .contato, .direitos{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'source sans pro',sans-serif;
+    text-align: center;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+.cabecalho, .rodape div:last-of-type{
+    height: 80px;
+}
+.cabecalho{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    background-color: #fff;
+}
+.texto{
+    width: 50%;
+    font-weight: 600;
+    display: flex;
+}
+.texto a{
+    color: rgb(33, 108, 221);
+    text-decoration: none;
+    
+}
+.texto a:hover, .navegacao a:hover{
+    box-shadow: 0 0px 5px 1px #0a9077b3;
+    border-radius: 5px;
+}
+.navegacao{
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.navegacao a{
+    text-decoration: none;
+}
+.texto, .navegacao a{
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+main section{
+    height: 800px;
+
+}
+
+
+
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #fff;
+    border-bottom: 2px solid #03836bb3 ;
+}
+.contato div:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
+.contato div{
+    width: 200px;
+    margin-top: 15px;
+    
+    
+}
+.end p::before{
+    content: '    ';
+    background-image: url('../img/icones/endereco.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.cel p::before{
+    content: '    ';
+    background-image: url('../img/icones/telefone.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.res a::before{
+    content: '    ';
+    background-image: url('../img/icones/calendario.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.res a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.rodape{
+    width: 100%;
+     background-color:#0a9077b3 ;
+}
+.direitos{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.direitos span{
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 600;
+}
+.direitos p:last-of-type{
+    display: inline;
+} 
+.direitos img{
+    width: 28px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+.direitos img:hover{
+    box-shadow: 0 0 10px 1px yellow;
+}
