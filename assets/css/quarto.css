@@ -33,6 +33,7 @@
 .texto a{
     color: rgb(33, 108, 221);
     text-decoration: none;
+    padding: 4px 5px;
     
 }
 .texto a:hover, .navegacao a:hover{
@@ -47,6 +48,7 @@
 }
 .navegacao a{
     text-decoration: none;
+    padding: 4px 5px;
 }
 .texto, .navegacao a{
     font-size: 20px;
@@ -63,11 +65,16 @@
     padding-top:5px ;
 }
 .width-max h2{
-    font-size: 24px;
+    font-size: 30px;
     color: #3d3d3d;
     font-weight: 500;
     text-transform: uppercase;
     margin: 80px 0 30px;
+    text-shadow:5px 5px 5px  #3d3d3d;
+}
+
+.width-max p{
+    font-size: 18px;
 }
 .galeria-quartos{
     max-width: 1024px;
@@ -102,6 +109,7 @@ li{
     width: 190px;
     text-align: justify;
     color: #3d3d3d;
+    font-size: 18px;
 }
 .top{
     display: flex;
@@ -125,7 +133,10 @@ li{
 }
 .contato div{
     width: 200px;
-    margin-top: 15px;
+    margin-top: 15px; 
+}
+.contato p{
+    color: #fff;
 }
 .end p::before{
     content: '    ';
@@ -156,11 +167,17 @@ li{
     color: #fff;
     font-weight: 500;
 }
+.res a:hover{
+    color: #3d3d3d;
+    font-weight: bold;
+
+
+}
 .rodape{
     width: 100%;
      background-color:#0a9077b3 ;
 }
-.direitos{
+.direitos p{
     color: #fff;
     margin-top: 10px;
     font-size: 15px;
@@ -183,6 +200,7 @@ li{
 .direitos img:hover{
     box-shadow: 0 0 10px 1px yellow;
 }
-p{
-    color: #3d3d3d;
+h3{
+    font-size: 22px;
+    font-weight: 600;
 }

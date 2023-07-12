@@ -33,11 +33,13 @@
 .texto a{
     color: rgb(33, 108, 221);
     text-decoration: none;
+    padding: 4px 4px;
     
 }
 .texto a:hover, .navegacao a:hover{
     box-shadow: 0 0px 5px 1px #0a9077b3;
     border-radius: 5px;
+    
 }
 .navegacao{
     width: 50%;
@@ -47,6 +49,7 @@
 }
 .navegacao a{
     text-decoration: none;
+    padding: 4px 5px;
 }
 .texto, .navegacao a{
     font-size: 20px;
@@ -83,14 +86,16 @@ h1{
 .titulo p{
     font-size: 28px;
     margin-top: 40px;
+    color: #fff;
 }
 section h2:first-of-type{
-    font-size: 30;
+    font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
     color: #3d3d3d;
     margin-bottom: 30px;
     margin-top: 50px;
+    text-shadow:5px 5px 5px  #3d3d3d;
 }
 .apresentacao p{
     line-height: 28px;
@@ -103,6 +108,7 @@ section h2:first-of-type{
     gap: 30px;
     margin-top:50px ;
     margin-bottom: 50px;
+    box-sizing: border-box;
 }
 .galeria img{
     max-width: 100%; 
@@ -113,11 +119,11 @@ section h2:first-of-type{
     border-bottom: 1px solid #0a9077b3;
     display: flex;
     flex-direction: column;
-    flex:1 1 300px    
+    flex:1 1 300px;
+    
+    
 }
 .galeria a:hover{
-    margin: 20px 0;
-    padding: 2px 0;
     background-color: #0a9077b3;
     border-radius: 5px;
     color: #fff;
@@ -126,7 +132,10 @@ section h2:first-of-type{
 .galeria a{
     text-decoration: none;
     color: #3d3d3d;
-    margin: 10px 0;
+    margin: 20px 0;
+    padding:4px 0;
+    font-size: 18px;
+    font-weight: 500;
 }
 .rota{
     padding-top: 22px;
@@ -174,7 +183,8 @@ section h2:first-of-type{
 }
 .card p:first-of-type{
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    font-size: 18px;
 }
 .contato{
     display: flex;
@@ -184,7 +194,7 @@ section h2:first-of-type{
     color: #fff;
     border-bottom: 2px solid #03836bb3 ;
 }
-.contato div:first-child{
+.contato  div:first-of-type{
     font-size: 20px;
     font-weight: bold;
 }
@@ -231,7 +241,7 @@ section h2:first-of-type{
     width: 100%;
      background-color:#0a9077b3 ;
 }
-.direitos{
+.direitos {
     color: #fff;
     margin-top: 10px;
     font-size: 15px;
@@ -254,4 +264,7 @@ section h2:first-of-type{
 }
 .direitos img:hover{
     box-shadow: 0 0 10px 1px yellow;
+}
+.apresentacao p, .sobre p, .rota p{
+    font-size: 18px;
 }
